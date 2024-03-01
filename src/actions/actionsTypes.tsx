@@ -1,0 +1,5 @@
+export const USER_LOGOUT = "USER_LOGOUT";
+export const IS_LOADING = "IS_LOADING";
+export const IS_BUTTON_LOADING = "IS_BUTTON_LOADING";
+export const GET_DEVICE_CODE = "GET_DEVICE_CODE";
+export const GET_DEVICE_LIST = "GET_DEVICE_LIST";

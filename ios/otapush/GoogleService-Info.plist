@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyCz7ojffXo1H3g2pQpIFy5xWKrDO8N-D-U</string>
+	<key>GCM_SENDER_ID</key>
+	<string>327286237430</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.bizsmart.otapush</string>
+	<key>PROJECT_ID</key>
+	<string>bizsmart-eda01</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bizsmart-eda01.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:327286237430:ios:ef8f88d656928151d2a4d7</string>
+</dict>
+</plist>
