@@ -206,6 +206,7 @@ const ConfigScreen = () => {
             style={[
               styles.boxBtn,
               {
+                
                 backgroundColor: !isEnable ? colors.green : colors.red_500,
               },
             ]}>
@@ -231,7 +232,7 @@ const ConfigScreen = () => {
             </TouchableOpacity>
           </>
         ) : (
-          <View style={{width: 50}} />
+          <View style={{width: 0}} />
         )}
       </View>
       <ScrollView style={{flex: 1}}>

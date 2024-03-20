@@ -20,6 +20,7 @@ import {
 } from '../actions/authAction';
 import moment from 'moment';
 import {Icons} from '../theme/icons';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 const NotificationScreen = () => {
   const {goBack} = useNavigation();
@@ -130,7 +131,7 @@ const NotificationScreen = () => {
   };
 
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={{flex: 1, backgroundColor: '#FAF9F9'}}>
       <View style={styles.headerRow}>
         <TouchableOpacity onPress={() => goBack()}>
           <Image
@@ -209,7 +210,7 @@ const NotificationScreen = () => {
           );
         })}
       </ScrollView>
-    </View>
+    </SafeAreaView>
   );
 };
 
@@ -250,11 +251,11 @@ const styles = StyleSheet.create({
     borderColor: colors.grey,
     shadowColor: '#000',
     shadowOffset: {
-      width: 10,
-      height: 10,
+      width: 2,
+      height: 2,
     },
-    shadowOpacity: 10.22,
-    shadowRadius: 10.22,
+    shadowOpacity: 0.22,
+    shadowRadius: 0.22,
     backgroundColor: colors.white,
     elevation: 3,
     marginVertical: wp(8),
